@@ -1,0 +1,17 @@
+.navbar-nav .nav-link.active {
+    background-color: black;
+    color: yellow;
+}
+*:required {
+    background-color: #fff3cd;
+}
+*:required:after {
+    content:" *";
+    color: red;
+  }
+  .card-img, .card-img-top {
+      max-height: 150px;
+      width: auto;
+  }
+
+
